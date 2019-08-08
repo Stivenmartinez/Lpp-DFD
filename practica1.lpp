@@ -1,12 +1,18 @@
+Real   A,B,C
 inicio 
-
-
-  escriba "es tarde"
-  llamar nueva_linea   
-  escriba "mas tarde noche"
-
-
-
+escriba "Suma de dos numeros"
+  
+  A<-15
+  B<-10
+  C<-A+B
+   llamar nueva_linea
+    llamar nueva_linea
+     llamar nueva_linea
+      llamar nueva_linea
+       llamar nueva_linea
+  escriba "la suma es"
+   llamar nueva_linea
+   escriba C
 
 
 
