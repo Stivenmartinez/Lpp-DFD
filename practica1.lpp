@@ -1,20 +1,15 @@
 Real   A,B,C
-inicio 
-escriba "Suma de dos numeros"
-  
-  A<-15
-  B<-10
-  C<-A+B
-   llamar nueva_linea
-    llamar nueva_linea
-     llamar nueva_linea
-      llamar nueva_linea
-       llamar nueva_linea
-  escriba "la suma es"
-   llamar nueva_linea
-   escriba C
+Inicio
+Escriba "suma de dos numeros ingresados por teclado" 
+llamar nueva_linea
+escriba "ingrese el primer numero:"
+Lea A
+llamar nueva_linea
+escriba "ingrese el segundo numero" 
+Lea B
+llamar nueva_linea
 
-
-
-
-fin
+C<-A+B
+llamar nueva_linea
+escriba "la suma de:", A, "  mas  ", B, "  es:  ", C
+Fin
